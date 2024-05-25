@@ -57,6 +57,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   margin: 0;
+  max-width: 496px;
 }
 .bottom-text {
   color: #f4f4fd;
@@ -147,6 +148,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin: 0;
+  margin-bottom: 72px;
 }
 .top-line {
   display: flex;
@@ -154,7 +156,6 @@ body {
   justify-content: space-around;
   margin: 0;
   border-bottom: 1px solid #e7e9fc;
-  max-width: 496px;
 }
 .nav-list {
   list-style-type: none;
@@ -228,20 +229,15 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
   margin: 0;
   padding-left: 0;
   justify-content: center;
-  padding-top: 72px;
 }
 .portfolio-item .title-third {
-  padding-top: 32px;
-  padding-left: 16px;
   padding-bottom: 8px;
 }
-.portfolio-item .text {
-  padding-left: 16px;
-  padding-bottom: 32px;
-}
+
 .values-item {
   width: 264px;
 }
@@ -252,4 +248,13 @@ img {
 .section-fourth {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-container {
+  border: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  border-top: none;
+  margin-bottom: 8px;
 }
