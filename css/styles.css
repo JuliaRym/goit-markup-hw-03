@@ -46,10 +46,6 @@ body {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-/* .card {
-  background-color: #fff;
-  width: 264px;
-} */
 .title-first {
   color: #fff;
   font-size: 56px;
@@ -124,8 +120,6 @@ body {
   letter-spacing: 0.03em;
 }
 .top-line .logo {
-  /* padding-top: 25.5px;
-  padding-bottom: 25.5px; */
   margin-right: 76px;
 }
 .logo-top {
@@ -162,7 +156,7 @@ body {
 }
 .nav-list {
   list-style-type: none;
-  /* margin: 0; */
+  margin: 0;
   display: flex;
   gap: 40px;
   padding-left: 0;
@@ -176,12 +170,7 @@ body {
 .values {
   display: flex;
   gap: 24px;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
-  /* justify-content: center; */
   padding-left: 0;
-  /* padding-left: 156px;
-  padding-right: 156px; */
   margin: 0;
 }
 .team {
@@ -250,7 +239,10 @@ img {
   border-top: none;
 }
 .card-container {
-  padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 .card-container .title-third {
   text-align: center;
